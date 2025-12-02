@@ -106,6 +106,12 @@ console.log("Numeri ordinati dal piu alto al piu basso:", numOrdinati);
 
 const valore = 1;
 
+if (isNaN(valore)) {
+  console.log("Non e un numero");
+} else {
+  console.log("E un numero");
+}
+
 console.log(typeof valore);
 
 /* ESERCIZIO 9
