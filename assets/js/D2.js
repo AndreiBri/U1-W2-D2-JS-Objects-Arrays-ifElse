@@ -11,6 +11,8 @@ if (num1 > num2) {
   console.log([num1], "Il primo numero e piu grande del secondo");
 } else if (num1 < num2) {
   console.log(num2, "Il secondo numero e piu grande del primo");
+} else (num1 === num2) {
+  console.log("I numeri sono uguali");
 }
 
 /* ESERCIZIO 2
